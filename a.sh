@@ -5,7 +5,7 @@
 # 安装nodejs
 echo '安装nodejs开始';
 if ! type node >/dev/null 2>&1; then
-  curl -sL https://deb.nodesource.com/setup_17.x | bash -
+  curl -sL https://deb.nodesource.com/setup_18.x | bash -
   apt-get install -y nodejs
 else
   echo 'nodejs已安装';
