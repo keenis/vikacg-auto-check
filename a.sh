@@ -36,7 +36,7 @@ echo '安装git完成';
 # 克隆项目
 echo '克隆Yunzai-Bot开始';
 if [ ! -d "Yunzai-Bot/" ];then
-  git clone https://github.com/yoimiya-kokomi/Yunzai-Bot
+  git clone https://github.com/Le-niao/Yunzai-Bot
   if [ ! -d "Yunzai-Bot/" ];then
     echo "克隆失败"
     exit 0
