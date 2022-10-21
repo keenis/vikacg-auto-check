@@ -56,5 +56,5 @@ if [ ! -d "node_modules/" ];then
 else
   echo '安装模块完成'
 fi
-
+npm install image-size --save
 echo '安装成功';
