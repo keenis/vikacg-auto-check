@@ -56,13 +56,15 @@ else
 fi
 
 cd Yunzai-Bot
+echo '克隆Miao-Plugin';
 git clone https://github.com/yoimiya-kokomi/miao-plugin.git ./plugins/miao-plugin/
 echo '安装模块开始';
 if [ ! -d "node_modules/" ];then
-  npm install
+  npm install pnpm -g
+  pnpm install -P
   echo '安装模块完成'
 else
   echo '安装模块完成'
 fi
-npm install image-size --save
+pnpm add image-size -w
 echo '安装成功';
