@@ -48,6 +48,7 @@ else
 fi
 
 cd Yunzai-Bot
+git clone https://github.com/yoimiya-kokomi/miao-plugin.git ./plugins/miao-plugin/
 echo '安装模块开始';
 if [ ! -d "node_modules/" ];then
   npm install
