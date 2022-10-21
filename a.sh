@@ -3,7 +3,7 @@
 #proot-distro login ubuntu
 #apt update
 #apt install curl -y
-#curl -sL https://github.com/keenis/vikacg-auto-check/blob/main/a.sh  | bash
+#curl -sL https://raw.githubusercontent.com/keenis/vikacg-auto-check/main/a.sh  | bash
 #cd Yunzai-Bot 
 #node app 
 #
