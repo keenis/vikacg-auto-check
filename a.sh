@@ -9,7 +9,6 @@
 #
 #!/bin/bash
 # android ubuntu
-# 2022年2月9日11:20:06
 
 # 安装nodejs
 echo '安装nodejs开始';
