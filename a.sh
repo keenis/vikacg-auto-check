@@ -1,3 +1,12 @@
+#pkg install proot-distro
+#proot-distro install ubuntu
+#proot-distro login ubuntu
+#apt update
+#apt install curl -y
+#curl -sL https://github.com/keenis/vikacg-auto-check/blob/main/a.sh  | bash
+#cd Yunzai-Bot 
+#node app 
+#
 #!/bin/bash
 # android ubuntu
 # 2022年2月9日11:20:06
